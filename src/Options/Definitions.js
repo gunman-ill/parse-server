@@ -100,7 +100,7 @@ module.exports.ParseServerOptions = {
     help:
       'The full URI to your database. Supported databases are mongodb or postgres.',
     required: true,
-    default: 'mongodb://localhost:27017/parse',
+    default: 'mongodb://heroku_gdst4z5t:49bngg52e2c6vf4r6eg3dvsgch@ds019886.mlab.com:19886/heroku_gdst4z5t',
   },
   directAccess: {
     env: 'PARSE_SERVER_ENABLE_EXPERIMENTAL_DIRECT_ACCESS',
@@ -458,6 +458,7 @@ module.exports.LiveQueryServerOptions = {
     help:
       'This string should match the appId in use by your Parse Server. If you deploy the LiveQuery server alongside Parse Server, the LiveQuery server will try to use the same appId.',
   },
+  default: 'oipk7shf32iofahljdallhabbha3pdfjna7ds',
   cacheTimeout: {
     env: 'PARSE_LIVE_QUERY_SERVER_CACHE_TIMEOUT',
     help:
@@ -479,6 +480,7 @@ module.exports.LiveQueryServerOptions = {
     env: 'PARSE_LIVE_QUERY_SERVER_MASTER_KEY',
     help:
       'This string should match the masterKey in use by your Parse Server. If you deploy the LiveQuery server alongside Parse Server, the LiveQuery server will try to use the same masterKey.',
+    default: '6Lf0So0UAAAAABmBz4xMwVTk46jJaQ066cmuSkcs',
   },
   port: {
     env: 'PARSE_LIVE_QUERY_SERVER_PORT',
