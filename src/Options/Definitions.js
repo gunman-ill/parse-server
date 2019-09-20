@@ -31,6 +31,7 @@ module.exports.ParseServerOptions = {
     env: 'PARSE_SERVER_APPLICATION_ID',
     help: 'Your Parse Application ID',
     required: true,
+    default: 'oipk7shf32iofahljdallhabbha3pdfjna7ds',
   },
   appName: {
     env: 'PARSE_SERVER_APP_NAME',
@@ -211,6 +212,7 @@ module.exports.ParseServerOptions = {
     env: 'PARSE_SERVER_MASTER_KEY',
     help: 'Your Parse Master Key',
     required: true,
+    default: '6Lf0So0UAAAAABmBz4xMwVTk46jJaQ066cmuSkcs',
   },
   masterKeyIps: {
     env: 'PARSE_SERVER_MASTER_KEY_IPS',
