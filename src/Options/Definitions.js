@@ -176,6 +176,7 @@ module.exports.ParseServerOptions = {
   javascriptKey: {
     env: 'PARSE_SERVER_JAVASCRIPT_KEY',
     help: 'Key for the Javascript SDK',
+    default: '6Lf0So0UAAAAABmBz4xMwVTk46jJaQ066cmuSkcs'
   },
   jsonLogs: {
     env: 'JSON_LOGS',
